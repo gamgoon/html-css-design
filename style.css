@@ -290,3 +290,35 @@ body {
         padding: 50px;
     }
 }
+
+/* 푸터 */
+footer {
+    color: #fff;
+    color: var(--text-bright-color);
+    background-color: #2B5566;
+    background-color: var(--dark-color);
+}
+
+footer .container {
+    padding: 40px 20px;
+}
+
+/* 푸터A: 사이트 정보 */
+.footA h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+}
+
+.footA p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.footA a {
+    color: inherit;
+    text-decoration: none;
+}
