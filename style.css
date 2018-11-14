@@ -304,6 +304,10 @@ footer .container {
 }
 
 /* 푸터A: 사이트 정보 */
+.footA {
+    margin-bottom: 30px;
+}
+
 .footA h2 {
     margin-top: 0;
     margin-bottom: 10px;
@@ -321,4 +325,47 @@ footer .container {
 .footA a {
     color: inherit;
     text-decoration: none;
+}
+
+/* 푸터B: 푸터 메뉴 */
+.footB div {
+    margin-bottom: 20px;
+}
+
+.footB h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: solid 1px currentColor;
+    font-size: 14px;
+}
+
+.footB ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footB a {
+    display: block;
+    padding: 5px;
+    color: inherit;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footB a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+@media (min-width: 768px) {
+    .footB {
+        display: flex;
+    }
+    .footB div {
+        flex: 1;
+    }
+
+    .footB div:not(:first-child) {
+        margin-left: 40px;
+    }
 }
