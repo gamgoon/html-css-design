@@ -357,6 +357,13 @@ footer .container {
     background-color: rgba(0,0,0,0.3);
 }
 
+/* 푸터C: 저작권 */
+.footC {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Montserrat', sans-srif;
+}
+
 @media (min-width: 768px) {
     .footB {
         display: flex;
@@ -367,5 +374,28 @@ footer .container {
 
     .footB div:not(:first-child) {
         margin-left: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    footer .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        max-width: var(--large-width);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footA {
+        flex: 0 0 40%;
+    }
+
+    .footB {
+        flex: 0 0 60%;
+    }
+
+    .footC {
+        flex: 0 0 100%;
     }
 }
