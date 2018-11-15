@@ -20,11 +20,24 @@
             border: 0;
         }
     </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $(function(){
+            $(".headC").click(function() {
+                $(".headB").slideToggle();
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
         <div class="container">
-            <a href="index.html" class="headA">LOGGER</a>
+            <div class="container-small">
+                <a href="index.html" class="headA">LOGGER</a>
+                <button class="headC" type="button">
+                    <i class="fas fa-bars" title="MENU"></i>
+                </button>
+            </div>
             <nav class="headB">
                 <ul>
                     <li><a href="index.html">TOP</a></li>
