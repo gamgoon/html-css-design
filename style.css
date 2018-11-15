@@ -454,3 +454,37 @@ header {
     font-size: 24px;
     text-decoration: none;
 }
+
+/* 헤더B: 내비게이션 메뉴 */
+.headB ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.headB a {
+    display: block;
+    padding: 15px;
+    color: inherit;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.headB a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+@media (min-width: 768px) {
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .headB ul {
+        display: flex;
+    }
+}
