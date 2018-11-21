@@ -494,6 +494,28 @@ header {
     color: inherit;
 }
 
+.head-hero {
+    background-color: transparent;
+    color: #fff;
+    color: var(--text-bright-color);
+}
+
+.head-hero .headA {
+    background-color: transparent;
+    color: inherit;
+}
+
+.head-hero .headC {
+    color: inherit;
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .head-hero .headB {
+        background-color: rgba(0,0,0,0.6);
+    }
+}
+
 /* 헤더A: 사이트 이름 */
 .headA {
     display: inline-block;
