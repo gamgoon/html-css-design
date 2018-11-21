@@ -477,6 +477,23 @@ header {
     border-bottom: solid 1px var(--gray-color);
 }
 
+/* 재구성: 해더의 색 */
+.head-color {
+    background-color: #5D9AB2;
+    background-color: var(--main-color);
+    color: #fff;
+    color: var(--text-bright-color);
+}
+
+.head-color .headA {
+    background-color: transparent;
+    color: inherit;
+}
+
+.head-color .headC {
+    color: inherit;
+}
+
 /* 헤더A: 사이트 이름 */
 .headA {
     display: inline-block;
