@@ -516,6 +516,17 @@ header {
     }
 }
 
+/* 재구성: 헤더를 화면 위에 고정하기 */
+.head-fixed, 
+.nohero .head-fixed {
+    position: fixed;
+}
+
+/* "+ *" 요건 어떤 의미인가? */
+.nohero .head-fixed + * {
+    margin-top: 70px;
+}
+
 /* 헤더A: 사이트 이름 */
 .headA {
     display: inline-block;
