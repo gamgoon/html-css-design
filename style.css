@@ -2,9 +2,30 @@
 
 /* 기본색 */
 :root {
-    --main-color: #5d9ab2;
+    /* --main-color: #5d9ab2;
     --accent-color: #bf6a7a;
-    --dark-color: #2B5566;
+    --dark-color: #2B5566; */
+    
+    /* --main-color: #66CBE5;
+    --accent-color: #B2A83D;
+    --dark-color: #358498; */
+
+    /* --main-color: #71A320;
+    --accent-color: #701D0B;
+    --dark-color: #395608; */
+
+    /* --main-color: #A7304F;
+    --accent-color: #B4AC46;
+    --dark-color: #5A1124; */
+
+    /* --main-color: #C98B89;
+    --accent-color: #494432;
+    --dark-color: #968C66; */
+
+    --main-color: #046380;
+    --accent-color: #A7A37E;
+    --dark-color: #002F2F;
+
     --text-bright-color: #fff;
     --icon-color: #fff;
     --icon-bk-color: #ddd;
